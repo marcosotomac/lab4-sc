@@ -12,7 +12,7 @@ void handle_interrupt(int sig) {
     interrupt_flag = 1;
 }
 
-void setup_timer() {
+void setup_timer() { //temporizador
     struct itimerval timer;
     timer.it_value.tv_sec = 5; // primera interrupción en 5 segundos
     timer.it_value.tv_usec = 0;
@@ -41,7 +41,7 @@ int main() {
         } else {
             // Mostrar el alfabeto
             for (char c = 'A'; c <= 'Z'; c++) {
-                printf("%c\n", c);
+                printf(" ", c);
                 fflush(stdout);
                 usleep(200000); // 200 ms entre letras
             }
