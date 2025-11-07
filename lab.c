@@ -1,11 +1,3 @@
-//Proceso en C que muestre siempre el alfabeto, este proceso debe ser capaz de detectar una interrupción programada cada 5 segundos que dure dos segundos muestre números desde 0 a 9, gestione la interrupción en Linux x86 (4 ptos)
-
-//Crear un temporizador kernel que simule una interrupción periódica. Listo
-//Generar la temporización de la interrupción (2 segundos). Listo
-//Generar un flag que indique qué imprimir (alfabeto o números).
-//Generar el hilo de kernel que imprime continuamente.
-//Describa cómo se programan los timers en el kernel.
-
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
