@@ -41,7 +41,7 @@ int main() {
         } else {
             // Mostrar el alfabeto
             for (char c = 'A'; c <= 'Z'; c++) {
-                printf(" ", c);
+                printf("%c ", c);
                 fflush(stdout);
                 usleep(200000); // 200 ms entre letras
             }
