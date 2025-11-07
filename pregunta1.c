@@ -14,5 +14,3 @@ int main(void) {
     print_str("Hola RISC-V!\n");
     return 0;
 }
-
-//riscv32-unknown-linux-gnu-gcc -o programa32 pregunta1.c printone.s qemu-riscv32 ./programa32
